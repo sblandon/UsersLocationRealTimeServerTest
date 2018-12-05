@@ -1,0 +1,21 @@
+{
+  "name": "userslocationrealtimeserver",
+  "version": "1.0.0",
+  "description": "Server for Developer Test, store, update and share users locations in real time",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Felipe Guerrero (juanfelipegm1@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jwt-simple": "^0.5.5",
+    "mongoose": "^5.3.14",
+    "socket.io": "^2.2.0"
+  }
+}
